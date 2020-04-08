@@ -2563,7 +2563,7 @@ section.lazy-placeholder:after {
 .cid-rUaYAG24Tk {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rUaYAG24Tk .title {
   margin-bottom: 2rem;
@@ -3577,6 +3577,10 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rUIfRKNOQ4 P {
+  text-align: left;
+}
+.cid-rUIfRKNOQ4 .card-title,
+.cid-rUIfRKNOQ4 .card-img {
   text-align: left;
 }
 .cid-rVyInEHp9G {
