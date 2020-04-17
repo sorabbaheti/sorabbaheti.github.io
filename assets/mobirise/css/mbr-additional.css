@@ -671,6 +671,9 @@ section.lazy-placeholder:after {
 .cid-rUZK36s93E P {
   text-align: right;
 }
+.cid-rUZK36s93E H2 {
+  color: #cc1b1b;
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -1645,7 +1648,7 @@ section.lazy-placeholder:after {
 }
 .cid-rUbjirzk6a {
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #efefef;
 }
 .cid-rUbjirzk6a h4 {
@@ -3529,10 +3532,14 @@ section.lazy-placeholder:after {
 .cid-rUIgLsKK3Q {
   padding-top: 30px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  background-color: #eff8ff;
 }
 .cid-rUIgLsKK3Q .mbr-section-subtitle {
   color: #767676;
+  text-align: center;
+}
+.cid-rUIgLsKK3Q H2 {
+  color: #cc1b1b;
   text-align: center;
 }
 .cid-rVB8JBtE1l {
@@ -4286,7 +4293,7 @@ section.lazy-placeholder:after {
 }
 .cid-rV0djOoTDB {
   padding-top: 0px;
-  padding-bottom: 90px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-rV0djOoTDB .mbr-slider .carousel-control {
@@ -4310,17 +4317,17 @@ section.lazy-placeholder:after {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
+  background: #232323;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #232323, #45505b) !important;
 }
 .cid-rV0djOoTDB .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
 .cid-rV0djOoTDB .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.4 !important;
 }
 .cid-rV0djOoTDB .mbr-gallery-title {
   font-size: .9em;
@@ -4333,6 +4340,115 @@ section.lazy-placeholder:after {
   z-index: 2;
 }
 .cid-rV0djOoTDB .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #232323 !important;
+  opacity: 0.4;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #232323, #45505b) !important;
+}
+.cid-rV0djOoTDB .mbr-gallery-item > div > span {
+  color: #ffffff;
+}
+.cid-rWfqqU6QOd {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rWfqqU6QOd .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rWfqOgSBe1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-rWfqOgSBe1 h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rWfqOgSBe1 p {
+  color: #767676;
+  text-align: left;
+  margin-bottom: 0;
+}
+.cid-rWfqOgSBe1 .card-img {
+  width: auto;
+}
+.cid-rWfqOgSBe1 .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+.cid-rWfqOgSBe1 .card-box {
+  padding-left: 1rem;
+  word-break: break-word;
+}
+@media (max-width: 991px) {
+  .cid-rWfqOgSBe1 .card-img {
+    text-align: left;
+    padding-bottom: 0.75rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rWfqOgSBe1 .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-rWfrhgC0jU {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rWfrhgC0jU .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rWfrhgC0jU .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rWfrhgC0jU .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rWfrhgC0jU .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rWfrhgC0jU .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+}
+.cid-rWfrhgC0jU .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-rWfrhgC0jU .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-rWfrhgC0jU .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-rWfrhgC0jU .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
